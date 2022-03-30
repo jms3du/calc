@@ -50,7 +50,7 @@ public class Aritmetica {
 	
 	
 	public Numero calcularMedia(Object[] objs) {
-		Numero acumulador = new Entero(0);
+		Numero acumulador = new Decimal(0, 0);
 		
 		for(int i=0; i<objs.length; i++) {
 			acumulador = suma(acumulador, (Numero)objs[i]);
